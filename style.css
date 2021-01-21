@@ -171,6 +171,15 @@
         
     }
 
+    .ul-web-dev-exp {
+        width: 90%;
+        margin: 1rem 0.5rem;
+    }
+    .ul-web-dev-exp > li {
+        line-height: 2;
+        width: fit-content;
+    }
+
      /* page[size="A4"]::after{
         content: "";
         background-image: url(./bg.jpg);
