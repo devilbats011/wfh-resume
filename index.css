@@ -6,6 +6,27 @@ body {
     line-height: 1.5;
   }
 
+
+  .resume-avatar-col {
+    width: 100%;
+  }
+  
+
+
+  /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .resume-avatar-col {
+    width: 190px;
+  }
+
+  .resume-title-container {
+    text-align: left !important;
+  }
+
+ }
+
+
+
   .resume-body-container {
     margin: auto;
     padding: 1rem;
@@ -59,12 +80,16 @@ body {
    
   }
 
+  .resume-title-container {
+    text-align: center;
+  }
+
   .resume-tittle-name {
     padding-top: 1rem;
     font-size: 2.6rem;
-    text-align: left;
     font-style: inherit;
     letter-spacing: 3px;
+
   }
 
   .italic {
@@ -90,3 +115,4 @@ body {
   .color-black {
     color:black;
   }
+
